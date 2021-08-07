@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv('config.env')
 
-url = os.environ.get("https://chaibasaserver.herokuapp.com/")
+url = os.environ.get("BASE_URL_OF_BOT")
 while True:
     time.sleep(1000)
-    status = requests.get(url).status_code
+    status = requests.get(https://chaibasaserver.herokuapp.com/).status_code
